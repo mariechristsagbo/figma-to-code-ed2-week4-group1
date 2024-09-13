@@ -9,7 +9,10 @@ export const content = [
 ];
 export const theme = {
   extend: {
-    fontFamily: {},
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+      inter: ["Inter", "sans-serif"],
+    },
     borderRadius: {},
     colors: {
       "gray-light": "#CCCCCC",
