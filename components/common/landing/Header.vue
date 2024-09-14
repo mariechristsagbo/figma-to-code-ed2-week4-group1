@@ -3,7 +3,7 @@
     <div>
       <img src="~/assets/images/logo.svg" alt="Logo" />
     </div>
-    <div class="py-3 font-inter">
+    <div class="py-3">
       <ul class="flex space-x-12">
         <li v-for="(item, index) in navItems" :key="index">
           <Link
@@ -17,7 +17,7 @@
     <div>
       <Link
         to="/register"
-        class="text-white font-inter font-medium bg-blue rounded-full text-lg py-4 px-16 transition-opacity duration-500 hover:opacity-80"
+        class="text-white font-medium bg-blue rounded-full text-lg py-4 px-16 transition-opacity duration-500 hover:opacity-80"
         >Register</Link
       >
     </div>

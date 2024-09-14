@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-20">
-    <div class="py-8">
+  <div class="">
+    <div class="py-8 px-16">
       <Header></Header>
     </div>
     <div>
