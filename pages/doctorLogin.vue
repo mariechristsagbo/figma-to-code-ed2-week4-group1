@@ -33,6 +33,7 @@ export default {
                 :fields="formFields"
                 :buttonName="'Connexion'"
                 :is-login-form="true"
+                :addtextarea="false"
                 />
                 <p class="text-center mt-6">Ou</p>
                 <div class="space-y-2 mt-6">

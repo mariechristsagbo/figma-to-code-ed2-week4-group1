@@ -32,6 +32,7 @@ export default {
                 :fields="formFields"
                 :buttonName="'Envoyer'"
                 :is-login-form="false"
+                :addtextarea="false"
                 />
                 <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">Vous n'avez pas de compte ? <span class="text-dark text-sm lg:text-base underline"><NuxtLink to="/patientSignup">Inscrivez-vous</NuxtLink></span></p>
             </div>
