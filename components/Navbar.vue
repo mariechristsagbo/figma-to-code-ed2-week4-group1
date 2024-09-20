@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky top-0 bg-white border-b-2">
+    <div class="sticky z-30 top-0 bg-white border-b-2">
         <div class="flex justify-between items-center max-w-screen-xl mx-auto xl:max-w-full p-3 md:px-8 md:py-3">
             <div class="flex space-x-2 items-center">
                 <img src="/icons/burger-menu-icon.svg" alt="Burger-menu" @click="menuOpen" class="block lg:hidden">

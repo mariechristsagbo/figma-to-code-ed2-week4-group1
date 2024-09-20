@@ -1,6 +1,7 @@
 <template>
   <div>
-    Page de Prescriptions
+    <h2 class="text-2xl font-semibold mb-6">Appointments</h2>
+    <Table />
   </div>
 </template>
 
@@ -10,6 +11,4 @@ export default {
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
