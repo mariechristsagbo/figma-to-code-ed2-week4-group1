@@ -54,7 +54,7 @@
                         <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Se souvenir de moi</label>
                 </div>
                 <div>
-                    <p class="text-center text-xs lg:text-sm text-gray-darkest underline"><NuxtLink to="/resetPassword">Mot de passe oublié</NuxtLink></p>
+                    <p class="text-center text-xs lg:text-sm text-gray-darkest underline"><NuxtLink to="/login/resetPassword">Mot de passe oublié</NuxtLink></p>
                 </div>
             </div>
             <div class="flex items-center justify-between">
