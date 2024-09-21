@@ -13,8 +13,11 @@ export const theme = {
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],
       inter: ["Inter", "sans-serif"],
+      cambon: ["Cambon", "sans-serif"],
     },
-    borderRadius: {},
+    borderRadius: {
+      "4xl": "30px",
+    },
     colors: {
       "gray-light": "#CCCCCC",
       "gray-light-medium": "#D9D9D9",
