@@ -1,7 +1,9 @@
 <template>
   <div class="flex justify-between items-center">
     <div>
-      <img src="~/assets/images/logo.svg" alt="Logo" />
+      <Link to="/">
+        <img src="~/assets/images/logo.svg" alt="Logo" />
+      </Link>
     </div>
     <div class="py-3">
       <ul class="flex space-x-12">
@@ -16,7 +18,7 @@
     </div>
     <div>
       <Link
-        to="/register"
+        to="/register/patient"
         class="text-white font-medium bg-blue rounded-full text-lg py-4 px-16 transition-opacity duration-500 hover:opacity-80"
         >Register</Link
       >

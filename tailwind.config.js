@@ -39,6 +39,4 @@ export const theme = {
     xl: "1280px",
   },
 };
-export const plugins = [
-  require('flowbite/plugin')
-];
+export const plugins = [require("flowbite/plugin")];

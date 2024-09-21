@@ -23,7 +23,6 @@
 </template>
 <script setup>
 import Link from "~/components/ui/Link.vue";
-import { ref, defineProps } from "vue";
 const props = defineProps({
   service: {
     type: Object,

@@ -8,6 +8,7 @@
         <ul class="space-y-3">
           <li v-for="link in item.links" :key="link.text">
             <Link
+              to="#"
               class="text-gray-light text-base block transform transition-all duration-500 hover:text-white hover:translate-x-1"
               :href="link.url"
             >
@@ -18,7 +19,9 @@
       </div>
     </div>
     <div class="space-y-6 lg:w-2/3 lg:order-first">
-      <img src="~/assets/images/logo.svg" alt="" />
+      <Link to="/">
+        <img src="~/assets/images/logo.svg" alt="Logo" />
+      </Link>
       <p class="text-base text-gray-light">
         MedEase simplifies healthcare with an easy-to-use platform for booking
         appointments, telehealth services, and managing patient records.
