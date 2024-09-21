@@ -20,6 +20,7 @@ export default {
                 :iconWidth="'35px'"
                 :iconHeight="'35px'"
                 :name="'Go back'" 
+                :to="'/'"
                 :classes="['bg-gray-pale py-2 px-4 justify-between']"
                 :classNameButton="['lg:text-base text-sm text-dark text-center font-[Roboto]']"
             />
@@ -72,7 +73,7 @@ export default {
                         :classNameButton="['text-base text-gray-darkest text-center font-[Roboto]']"
                     />
                 </div>
-                <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">Vous n'avez pas de compte ? <span class="text-dark text-sm lg:text-base underline"><NuxtLink to="/patientSignup">Inscrivez-vous</NuxtLink></span></p>
+                <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">Vous n'avez pas de compte ? <span class="text-dark text-sm lg:text-base underline"><NuxtLink to="/register/patient">Inscrivez-vous</NuxtLink></span></p>
             </div>
         </div>
     </div>
