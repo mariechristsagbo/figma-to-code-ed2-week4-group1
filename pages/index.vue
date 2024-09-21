@@ -6,10 +6,10 @@
     <nav>
       <ul>
         <li><NuxtLink to="/">Accueil</NuxtLink></li>
-        <li><NuxtLink to="/patientSignup">Inscription(Patient)</NuxtLink></li>
-        <li><NuxtLink to="/patientLogin">Connexion(Patient)</NuxtLink></li>
-        <li><NuxtLink to="/doctorSignup">Inscription(Doctor)</NuxtLink></li>
-        <li><NuxtLink to="/doctorLogin">Connexion(Doctor)</NuxtLink></li>
+        <li><NuxtLink to="/register/patient">Inscription(Patient)</NuxtLink></li>
+        <li><NuxtLink to="/login/patient">Connexion(Patient)</NuxtLink></li>
+        <li><NuxtLink to="/register/doctor">Inscription(Doctor)</NuxtLink></li>
+        <li><NuxtLink to="/login/doctor">Connexion(Doctor)</NuxtLink></li>
       </ul>
     </nav>
   </header>
