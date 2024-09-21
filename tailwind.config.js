@@ -6,6 +6,7 @@ export const content = [
   "./plugins/**/*.{js,ts}",
   "./app.vue",
   "./error.vue",
+  "./node_modules/flowbite/**/*.{js,ts}",
 ];
 export const theme = {
   extend: {
@@ -38,4 +39,6 @@ export const theme = {
     xl: "1280px",
   },
 };
-export const plugins = [];
+export const plugins = [
+  require('flowbite/plugin')
+];
