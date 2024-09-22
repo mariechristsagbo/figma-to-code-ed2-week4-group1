@@ -29,7 +29,7 @@
   import DashboardIcon from '~/assets/icons/dashboard.svg';
   import AppointmentsIcon from '~/assets/icons/appointments.svg';
   import MessagesIcon from '~/assets/icons/messages.svg';
-  import ProfileIcon from '~/assets/icons/profile.svg';
+  import ProfileIcon from '~/assets/icons/Profile.svg';
   
   const menuItems = [
   { name: 'Dashboard', label: 'Dashboard', icon: DashboardIcon, route: '/dashboard' },
