@@ -73,6 +73,10 @@
 
 <script setup >
 import prfile from '@/assets/images/prfile.png'
+
+definePageMeta({
+  layout: 'patient-layout',
+})
 </script>
 
 <style>

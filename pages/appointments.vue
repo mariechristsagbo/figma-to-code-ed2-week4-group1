@@ -116,14 +116,15 @@ border-2 border-blue-500 items-center rounded-[23px]  w-[75%]   p-[10px] " >
 
 
 <script setup>
+
 import doc1 from '@/assets/images/doc1.png'
 import doc2 from '@/assets/images/doc2.png'
 import doc4 from '@/assets/images/doc4.png'
 import description1 from '@/assets/images/description1.png'
 import description2 from '@/assets/images/description2.png'
-
-
-
+definePageMeta({
+  layout: 'patient-layout',
+})
 
 
 </script>
