@@ -32,7 +32,7 @@
   import ProfileIcon from '~/assets/icons/profile.svg';
   
   const menuItems = [
-  { name: 'Dashboard', label: 'Dashboard', icon: DashboardIcon, route: '/' },
+  { name: 'Dashboard', label: 'Dashboard', icon: DashboardIcon, route: '/dashboard' },
   { name: 'Appointments', label: 'Appointments', icon: AppointmentsIcon, route: '/appointments' },
   { name: 'Messages', label: 'Messages', icon: MessagesIcon, route: '/messages' },
   { name: 'Profile', label: 'Profile', icon: ProfileIcon, route: '/profile' }
