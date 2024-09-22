@@ -41,8 +41,8 @@ export default {
       type: String,
       default: '20px',
     },
-    to: {
-      type: String, // This will be used for NuxtLink
+    url: {
+      type: String, // URL for the button
       default: null,
     },
   },
@@ -65,7 +65,7 @@ export default {
 </script>
 
 <template>
-  <component :is="to ? 'NuxtLink' : 'button'" :to="to" :class="classes">
+  <component :is="url ? 'a' : 'button'" :href="url" :class="classes">
     <img v-if="iconStart" :src="iconStartSrc" :style="{ width: iconWidth, height: iconHeight }" class="icon-start" />
     <span :class="classNameButton" :style="styleNameButton">{{ name }}</span>
     <span :class="classNumbersButton" :style="styleNumbersButton">{{ numbers }}</span>
@@ -74,11 +74,12 @@ export default {
 </template>
 
 <style>
-button, a, NuxtLink {
+button, a {
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 140px;
   text-decoration: none; /* Remove underline for <a> */
 }
 </style>

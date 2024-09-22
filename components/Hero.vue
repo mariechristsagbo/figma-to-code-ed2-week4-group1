@@ -20,7 +20,7 @@
           class="block md:flex lg:block xl:flex items-center space-y-4 xl:space-y-0 gap-6"
         >
           <Link
-            to="/booking"
+            to="/appointment"
             class="flex text-center justify-center rounded-full font-medium py-4 px-12 md:text-xl text-white bg-blue"
             >Book Consultation</Link
           >

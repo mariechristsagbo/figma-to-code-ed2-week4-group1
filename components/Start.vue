@@ -7,7 +7,7 @@
     </div>
     <div class="md:flex items-center justify-center md:space-x-10 px-5">
       <Link
-        to="#"
+        to="/appointment"
         class="bg-blue flex justify-center items-center rounded-full px-5 py-3 text-white"
         >Book Consultation Now</Link
       >
