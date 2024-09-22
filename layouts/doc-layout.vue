@@ -13,9 +13,9 @@
 </template>
 
 <script>
-export default {
-
-}
+useHead({
+  title: "MedEase",
+});
 </script>
 
 <style>

@@ -39,10 +39,6 @@ const items = ref([
     icon: "/icons/profile-icon.svg",
   },
 ])
-
-definePageMeta({
-  layout: 'doc-layout',
-})
 </script>
 
 <style scoped></style>
