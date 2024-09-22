@@ -37,6 +37,7 @@ definePageMeta({
         :iconWidth="'35px'"
         :iconHeight="'35px'"
         :name="'Go back'"
+        :url="'/'"
         :classes="['bg-gray-pale py-2 px-4 justify-between']"
         :classNameButton="[
           'lg:text-base text-sm text-dark text-center font-[Roboto]',

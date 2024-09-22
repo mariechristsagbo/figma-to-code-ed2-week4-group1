@@ -30,6 +30,7 @@ definePageMeta({
         :iconWidth="'35px'"
         :iconHeight="'35px'"
         :name="'Go back'"
+        :url="'/'"
         :classes="['bg-gray-pale py-2 px-4 justify-between']"
         :classNameButton="[
           'lg:text-base text-sm text-dark text-center font-[Roboto]',
@@ -94,10 +95,7 @@ definePageMeta({
           />
         </div>
         <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">
-          Vous n'avez pas de compte ?
-          <span class="text-dark text-sm lg:text-base underline"
-            ><NuxtLink to="/register/patient">Inscrivez-vous</NuxtLink></span
-          >
+          Vous n'avez pas de compte ?<span class="text-dark text-sm lg:text-base underline"><NuxtLink to="/register/patient">Inscrivez-vous</NuxtLink></span>
         </p>
       </div>
     </div>
