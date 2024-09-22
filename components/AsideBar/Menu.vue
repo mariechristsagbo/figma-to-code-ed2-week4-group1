@@ -35,10 +35,14 @@ const items = ref([
   },
   {
     title: "Profile",
-    path: "/profile",
+    path: "/doc-profile",
     icon: "/icons/profile-icon.svg",
   },
 ])
+
+definePageMeta({
+  layout: 'doc-layout',
+})
 </script>
 
 <style scoped></style>
