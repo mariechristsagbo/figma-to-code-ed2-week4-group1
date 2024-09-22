@@ -5,10 +5,10 @@
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup lang="ts">
+definePageMeta({
+  layout: 'doc-layout',
+})
 </script>
 
 <style></style>

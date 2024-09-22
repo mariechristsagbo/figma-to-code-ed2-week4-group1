@@ -1,9 +1,3 @@
 <template>
-    <div class="">
-        <AppCalender></AppCalender>
-    </div>
+    <div class=""></div>
 </template>
-
-<script setup>
-
-</script>

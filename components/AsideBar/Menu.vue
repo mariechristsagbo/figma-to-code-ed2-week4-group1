@@ -25,7 +25,7 @@ const route = useRoute()
 const items = ref([
   {
     title: "Appointments",
-    path: "/",
+    path: "/doc-dashboard",
     icon: "/icons/calendar-icon.svg",
   },
   {
