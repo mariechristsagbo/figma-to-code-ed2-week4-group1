@@ -3,7 +3,7 @@
         <div class="flex justify-between items-center max-w-screen-xl mx-auto xl:max-w-full p-3 md:px-8 md:py-3">
             <div class="flex space-x-2 items-center">
                 <img src="/icons/burger-menu-icon.svg" alt="Burger-menu" @click="menuOpen" class="block lg:hidden">
-                <img src="/icons/medisync-icon.svg" alt="logo Icon" class="w-24 sm:w-32">
+                <img src="/icons/logo-icon.svg" alt="logo Icon" class="w-24 sm:w-32">
             </div>
             <div class="flex space-x-2  items-center bg-gray-lighter p-3 rounded-2xl">
                 <img src="/icons/profile-nav-icon.svg" alt="Icon Profile" class="w-5">
