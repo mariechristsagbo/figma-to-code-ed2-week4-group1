@@ -30,7 +30,7 @@
     <p class="pt-10 pb-1">Avaliable doctors:</p>
     <div class="grid grid-cols-2 gap-2.5">
       <div
-        class="flex items-center justify-center align-center bg-gray-500 rounded-[23px] w-[400px] p-[9px]"
+        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[9px]"
       >
         <div class="photo">
           <img :src="doc1" alt="people" class="w-[70%]" />
@@ -48,7 +48,7 @@
       </div>
 
       <div
-        class="flex items-center justify-center align-center bg-gray-500 rounded-[23px] w-[400px] p-[5px]"
+        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
       >
         <div class="photo">
           <img :src="doc2" alt="people" class="w-[70%]" />
@@ -66,7 +66,7 @@
       </div>
 
       <div
-        class="flex items-center justify-center align-center bg-gray-500 rounded-[23px] w-[400px] p-[5px]"
+        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
       >
         <div class="photo">
           <img :src="doc4" alt="people" class="w-[70%]" />
@@ -84,7 +84,7 @@
       </div>
 
       <div
-        class="flex items-center justify-center align-center bg-gray-500 rounded-[23px] w-[400px] p-[5px]"
+        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
       >
         <div class="photo">
           <img :src="doc3" alt="people" class="w-[70%]" />

@@ -3,7 +3,7 @@
 
 <div class="p-[25px]" >
 <div>
-    <p class="text-customOrange text-2xl ">My appointments</p></div>
+    <p class="text-blue text-2xl ">My appointments</p></div>  
 
 
     <div>

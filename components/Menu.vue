@@ -1,11 +1,11 @@
 <template>
-    <div class="w-[100%] bg-gray-200 h-screen p-4 space-y-4 flex justify-center overflow-y-hidden">
+    <div class="w-[100%] bg-gray-200 h-screen p-4 space-y-4 flex justify-center ">
       <ul>
         <li 
           v-for="item in menuItems"
           :key="item.name"
           @click="selectMenuItem(item.name)"
-          :class="[selectedItem === item.name ? 'bg-blue-500 text-white' : 'bg-transparent text-black', 'flex items-center p-2 cursor-pointer rounded-md']"
+          :class="[selectedItem === item.name ? 'bg-blue text-white' : 'bg-transparent text-black', 'flex items-center p-2 cursor-pointer rounded-md']"
           style="border-radius: 12px;"
         >
 
@@ -58,7 +58,7 @@
   
   /* Styles pour les éléments sélectionnés */
   .bg-blue-500 {
-    background: #0F4C5C; /* Couleur de fond pour les éléments sélectionnés */
+    background:#2F80ED; /* Couleur de fond pour les éléments sélectionnés */
   }
   
   .text-white {

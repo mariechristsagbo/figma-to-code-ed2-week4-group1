@@ -49,7 +49,7 @@
  </template>
  
  <script setup>
-import logo from '@/assets/images/logo.png'
+import logo from '@/assets/images/logo.svg'
 import carbon_notification from '@/assets/images/carbon_notification.png'
 import Vector from '@/assets/images/Vector.png'
  </script>
