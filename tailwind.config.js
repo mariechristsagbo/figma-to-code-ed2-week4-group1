@@ -6,14 +6,18 @@ export const content = [
   "./plugins/**/*.{js,ts}",
   "./app.vue",
   "./error.vue",
+  "./node_modules/flowbite/**/*.{js,ts}",
 ];
 export const theme = {
   extend: {
     fontFamily: {
       roboto: ["Roboto", "sans-serif"],
       inter: ["Inter", "sans-serif"],
+      cambon: ["Cambon", "sans-serif"],
     },
-    borderRadius: {},
+    borderRadius: {
+      "4xl": "30px",
+    },
     colors: {
       "gray-light": "#CCCCCC",
       "gray-light-medium": "#D9D9D9",
@@ -35,4 +39,4 @@ export const theme = {
     xl: "1280px",
   },
 };
-export const plugins = [];
+export const plugins = [require("flowbite/plugin")];
