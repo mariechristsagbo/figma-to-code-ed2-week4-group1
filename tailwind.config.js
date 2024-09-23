@@ -28,8 +28,11 @@ export const theme = {
       "blue-light": "#F2F7FF",
       "gray-darkest": "#1A1A1A",
       "gray-medium": "#808080",
-      blue: "#2F80ED",
-      dark: "#111111",
+      "blue": "#2F80ED",
+      "dark": "#111111",
+      "grise":"#0F4C5C",
+       
+
     },
   },
   screens: {
