@@ -1,6 +1,6 @@
 {
-    "workbench.activityBar.location": "default",
-    "workbench.preferredDarkColorTheme": "Default Dark Modern",
-    "workbench.colorTheme": "Default Dark Modern",
-    "workbench.preferredHighContrastColorTheme": "Default Dark Modern"
+  "workbench.activityBar.location": "default",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.preferredHighContrastColorTheme": "Default Dark Modern"
 }

@@ -1,15 +1,13 @@
 <template>
   <div>
-      <p>Page Profile</p>
+    <p>Page Profile</p>
   </div>
 </template>
 
 <script setup>
 definePageMeta({
-layout: 'doc-layout',
-})
+  layout: "doc-layout",
+});
 </script>
 
-<style>
-
-</style>
+<style></style>

@@ -2,13 +2,23 @@
   <div class="space-y-3">
     <div class="px-4 grow">
       <div class="grid gap-5">
-        <NuxtLink v-for="(item, index) in items" :key="index" :to="item.path" :class="[
-          'flex items-center gap-2 pr-6 p-2 transition rounded cursor-pointer w-48 lg:w-full',
-          $route.path === item.path
-            ? 'bg-blue text-white'
-            : 'hover:bg-gray-lighter'
-        ]">
-          <img :src="item.icon" :alt="item.title" class="w-4" :class="{ invert: $route.path === item.path }" />
+        <NuxtLink
+          v-for="(item, index) in items"
+          :key="index"
+          :to="item.path"
+          :class="[
+            'flex items-center gap-2 pr-6 p-2 transition rounded cursor-pointer w-48 lg:w-full',
+            $route.path === item.path
+              ? 'bg-blue text-white'
+              : 'hover:bg-gray-lighter',
+          ]"
+        >
+          <img
+            :src="item.icon"
+            :alt="item.title"
+            class="w-4"
+            :class="{ invert: $route.path === item.path }"
+          />
           <span>{{ item.title }}</span>
         </NuxtLink>
       </div>
@@ -17,10 +27,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useRoute } from 'vue-router'
+import { ref } from "vue";
+import { useRoute } from "vue-router";
 
-const route = useRoute()
+const route = useRoute();
 
 const items = ref([
   {
@@ -38,7 +48,7 @@ const items = ref([
     path: "/doc-profile",
     icon: "/icons/profile-icon.svg",
   },
-])
+]);
 </script>
 
 <style scoped></style>

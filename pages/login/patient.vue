@@ -95,7 +95,10 @@ definePageMeta({
           />
         </div>
         <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">
-          Vous n'avez pas de compte ?<span class="text-dark text-sm lg:text-base underline"><NuxtLink to="/register/patient">Inscrivez-vous</NuxtLink></span>
+          Vous n'avez pas de compte ?<span
+            class="text-dark text-sm lg:text-base underline"
+            ><NuxtLink to="/register/patient">Inscrivez-vous</NuxtLink></span
+          >
         </p>
       </div>
     </div>

@@ -109,10 +109,8 @@
     </div>
   </div>
 </template>
-    
-    
-    
-    <script setup>
+
+<script setup>
 import doc1 from "@/assets/images/doc1.png";
 import doc1note from "@/assets/images/doc1note.png";
 
@@ -129,5 +127,4 @@ definePageMeta({
   layout: "patient-layout",
 });
 </script>
-    <style>
-</style>
+<style></style>

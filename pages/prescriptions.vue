@@ -7,8 +7,8 @@
 
 <script setup lang="ts">
 definePageMeta({
-  layout: 'doc-layout',
-})
+  layout: "doc-layout",
+});
 </script>
 
 <style></style>
