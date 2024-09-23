@@ -1,7 +1,7 @@
 <template>
     <div class="relative rounded-lg">
         <table class="table-auto w-full text-left">
-            <thead class=" bg-[#797d85] text-white">
+            <thead class=" bg-blue text-white">
                 <tr>
                     <td class="py-1 p-4">Appt.ID</td>
                     <td class="py-1 p-4">Patient Name</td>
