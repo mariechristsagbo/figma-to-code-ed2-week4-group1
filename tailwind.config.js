@@ -32,6 +32,9 @@ export const theme = {
       dark: "#111111",
       grise: "#0F4C5C",
     },
+    maxWidth: {
+      '70': '70em',
+    }
   },
   screens: {
     sm: "375px",

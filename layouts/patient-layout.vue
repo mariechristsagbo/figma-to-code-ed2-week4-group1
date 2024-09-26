@@ -1,32 +1,36 @@
 <template>
   <div class="w-screen h-screen flex text-red overflow-y-hidden">
     <!-- side bar -->
-    <div class="w-[400px] h-full">
-      <div class="h-[50px] flex justify-center items-center">
-        <img :src="logo" alt="Logo" class="w-[45%]" />
+    <div class="w-[300px] h-full">
+      <div class="h-[60px] border-b flex justify-center items-center">
+        <img :src="logo" alt="Logo" class="w-24 sm:w-32" />
       </div>
-      <div class="h-[calc(100vh-50px)] bg-[#f3f3f4]">
+      <div class="h-[calc(100vh-80px)]">
         <Menu />
       </div>
     </div>
 
-    <div class="w-full h-full bg-white-400">
-      <div class="h-[50px] bg-white-400">
+    <div class="w-full h-full bg-white">
+      <div class="h-[60px] border-b">
         <div
           class="leftheader h-[100%] gap-4 flex justify-end items-center pr-[5%]"
         >
           <img :src="carbon_notification" alt="notification" class="w-[30px]" />
 
-          <button
-            class="flex justify-center items-center gap-4 bg-[#f3f3f4] rounded-xl p-[5px]"
+          <div
+            class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl"
           >
-            <img :src="Vector" alt="people" class="w-[14%]" />
-            <p>Ravad Nadam</p>
-          </button>
+            <img
+              src="/icons/profile-nav-icon.svg"
+              alt="Icon Profile"
+              class="w-5"
+            />
+            <p class="text-sm">Ravad Nadam</p>
+          </div>
         </div>
       </div>
 
-      <div class="h-[calc(100vh-50px)] bg-gray">
+      <div class="h-[calc(100vh-60px)] bg-gray overflow-y-auto">
         <NuxtPage />
       </div>
     </div>
