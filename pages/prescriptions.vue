@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="">
     <h2 class="text-2xl font-semibold mb-6">Appointments</h2>
     <Table />
   </div>

@@ -29,7 +29,7 @@ definePageMeta({
 
 <template>
   <div
-    class="w-full h-full px-4 py-4 md:px-12 md:py-12 bg-[url('~/assets/images/bg.png')]"
+    class="w-full h-full px-4 py-4 md:px-12 md:py-12 bg-[url('~/assets/images/bg.png')] bg-no-repeat bg-cover bg-center"
   >
     <div>
       <buttonComponent
@@ -98,7 +98,7 @@ definePageMeta({
       <div class="hidden items-start lg:flex lg:items-center">
         <div class="bg-blue rounded-xl px-9 py-9 lg:w-[470px] w-full">
           <div class="space-y-6 text-white font-[Inter]">
-            <h2 class="text-2xl font-bold">Construire l'avenir...</h2>
+            <h2 class="text-2xl font-bold">Build the future...</h2>
             <p class="text-base">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
