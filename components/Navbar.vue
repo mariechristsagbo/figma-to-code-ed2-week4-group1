@@ -18,14 +18,22 @@
           />
         </NuxtLink>
       </div>
-      <div class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl">
-        <img src="/icons/profile-nav-icon.svg" alt="Icon Profile" class="w-5" />
-        <p class="text-sm hidden md:block">Ravad Nadam</p>
-      </div>
+      <NuxtLink to="/doc-profile">
+        <div
+          class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl"
+        >
+          <img
+            src="/icons/profile-nav-icon.svg"
+            alt="Icon Profile"
+            class="w-5"
+          />
+          <p class="text-sm hidden md:block">Ravad Nadam</p>
+        </div>
+      </NuxtLink>
     </div>
 
     <div
-      class="lg:hidden lg:stactic absolute w-full md:w-1/2 p-5 border h-screen bg-white left-0 z-30 duration-500 lg:duration-0 ease-in-out"
+      class="lg:hidden lg:stactic absolute w-full md:w-1/2 p-5 border-2 h-screen bg-white left-0 z-30 duration-500 lg:duration-0 ease-in-out"
       :class="[open ? 'left-0' : 'left-[-100%]']"
     >
       <AsideBarMenu />

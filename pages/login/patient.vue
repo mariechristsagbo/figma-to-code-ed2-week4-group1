@@ -41,10 +41,9 @@ definePageMeta({
       <div class="flex items-start lg:items-center">
         <div class="bg-blue rounded-xl px-9 py-9 lg:w-[470px] w-full">
           <div class="space-y-6 text-white font-[Inter]">
-            <h2 class="text-2xl font-bold">Construire l'avenir...</h2>
+            <h2 class="text-2xl font-bold">Did you know?</h2>
             <p class="text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              You can delete existing appointments until 1 hour before the appointment time
             </p>
           </div>
         </div>

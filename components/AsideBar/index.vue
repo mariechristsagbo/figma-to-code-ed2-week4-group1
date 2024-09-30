@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="hidden lg:flex p-5 border-r w-64 h-full fixed bg-gray-200 left-0 z-30"
+      class="hidden lg:flex p-5 border-r w-64 h-full fixed left-0 z-30"
     >
       <AsideBarMenu />
     </div>

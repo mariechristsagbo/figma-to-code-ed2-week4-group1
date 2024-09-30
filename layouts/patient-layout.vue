@@ -3,7 +3,7 @@
     <!-- side bar -->
     <div class="lg:block hidden w-[300px] h-full">
       <NuxtLink to="/">
-        <div class="h-[60px] p-9 flex items-center">
+        <div class="h-[60px] p-9 flex items-center border-b-2">
           <img :src="logo" alt="Logo" class="w-24 sm:w-32" />
         </div>
       </NuxtLink>
@@ -54,16 +54,18 @@
               class="w-[30px]"
             />
 
-            <div
-              class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl"
-            >
-              <img
-                src="/icons/profile-nav-icon.svg"
-                alt="Icon Profile"
-                class="w-5"
-              />
-              <p class="text-sm hidden md:block">Ravad Nadam</p>
-            </div>
+            <NuxtLink to="/profile">
+              <div
+                class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl"
+              >
+                <img
+                  src="/icons/profile-nav-icon.svg"
+                  alt="Icon Profile"
+                  class="w-5"
+                />
+                <p class="text-sm hidden md:block">Ravad Nadam</p>
+              </div>
+            </NuxtLink>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-64 bg-gray-200 h-screen p-8">
+  <div class="w-64 border-r h-screen p-8">
     <ul class="space-y-4">
       <li
         v-for="item in menuItems"

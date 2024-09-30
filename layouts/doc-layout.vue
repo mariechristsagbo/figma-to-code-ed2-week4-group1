@@ -7,7 +7,7 @@
       <div>
         <AsideBar />
       </div>
-      <div class="p-7 w-full">
+      <div class="p-7 w-full overflow-hidden">
         <slot />
       </div>
     </div>
