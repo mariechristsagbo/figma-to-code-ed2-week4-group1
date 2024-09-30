@@ -4,7 +4,7 @@
 
     <p class="text-gray-900 pt-10 pb-1">Specilization:</p>
 
-    <div class="flex gap-20 flex-wrap">
+    <div class="flex gap-4 flex-wrap">
       <button
         class="bg-blue-500 text-white font-semibold py-4 px-6 rounded-lg hover:bg-blue-600"
       >
@@ -28,35 +28,17 @@
     </div>
 
     <p class="pt-10 pb-1">Avaliable doctors:</p>
-    <div class="grid grid-cols-2 gap-2.5">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5">
       <div
-        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[9px]"
+        class="flex justify-between bg-blue rounded-2xl p-5"
       >
         <div class="photo">
-          <img :src="doc1" alt="people" class="w-[70%]" />
+          <img :src="doc1" alt="people" class="w-20" />
         </div>
 
-        <div class="flex-col justify-center text-center align-center0 w-[90%]">
-          <h3 class="text-white text-2xl">Dr.Mohammed Isamel</h3>
-          <p class="text-white text-1xl pt-[7px] pb-[7px]">
-            Bineveler Mahallest
-          </p>
-          <div class="stars flex justify-center">
-            <img :src="doc1note" alt="people" class="w-[50%]" />
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
-      >
-        <div class="photo">
-          <img :src="doc2" alt="people" class="w-[70%]" />
-        </div>
-
-        <div class="flex-col justify-center text-center align-center0 w-[90%]">
-          <h3 class="text-white text-2xl">Dr.Nadia Fallah</h3>
-          <p class="text-white text-1xl pt-[7px] pb-[7px]">
+        <div class="flex-col justify-center text-center">
+          <h3 class="text-white text-lg">Dr.Mohammed Isamel</h3>
+          <p class="text-white text-lg py-3">
             Bineveler Mahallest
           </p>
           <div class="stars flex justify-center">
@@ -66,15 +48,33 @@
       </div>
 
       <div
-        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
+        class="flex justify-between bg-blue rounded-2xl p-5"
       >
         <div class="photo">
-          <img :src="doc4" alt="people" class="w-[70%]" />
+          <img :src="doc2" alt="people" class="w-20" />
         </div>
 
-        <div class="flex-col justify-center text-center align-center0 w-[90%]">
+        <div class="flex-col justify-center text-center">
+          <h3 class="text-white text-2xl">Dr.Nadia Fallah</h3>
+          <p class="text-white text-lg py-3">
+            Bineveler Mahallest
+          </p>
+          <div class="stars flex justify-center">
+            <img :src="doc2note" alt="people" class="w-[50%]" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between bg-blue rounded-2xl p-5"
+      >
+        <div class="photo">
+          <img :src="doc4" alt="people" class="w-20" />
+        </div>
+
+        <div class="flex-col justify-center text-center">
           <h3 class="text-white text-2xl">Dr. Salih Ahmet</h3>
-          <p class="text-white text-1xl pt-[7px] pb-[7px]">
+          <p class="text-white text-lg py-3">
             Bineveler Mahallest
           </p>
           <div class="stars flex justify-center">
@@ -84,17 +84,17 @@
       </div>
 
       <div
-        class="flex items-center justify-center align-center bg-blue rounded-[23px] w-[400px] p-[5px]"
+        class="flex justify-between bg-blue rounded-2xl p-5"
       >
         <div class="photo">
-          <img :src="doc3" alt="people" class="w-[70%]" />
+          <img :src="doc3" alt="people" class="w-20" />
         </div>
 
         <div
-          class="flex-col justify-center text-center align-center0 w-[90%] pr-[8px]"
+          class="flex-col justify-center text-center"
         >
-          <h3 class="text-white text-2xl">Dr. Mohammed Ismail</h3>
-          <p class="text-white text-1xl pt-[7px] pb-[7px]">
+          <h3 class="text-white text-xl">Dr. Mohammed Ismail</h3>
+          <p class="text-white text-lg py-3">
             Bineveler Mahallest
           </p>
           <div class="stars flex justify-center">

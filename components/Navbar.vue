@@ -10,11 +10,17 @@
           @click="menuOpen"
           class="block lg:hidden"
         />
-        <img src="/icons/logo-icon.svg" alt="logo Icon" class="w-24 sm:w-32" />
+        <NuxtLink to="/">
+          <img
+            src="/icons/logo-icon.svg"
+            alt="logo Icon"
+            class="w-24 sm:w-32"
+          />
+        </NuxtLink>
       </div>
       <div class="flex space-x-2 items-center bg-gray-lighter p-3 rounded-2xl">
         <img src="/icons/profile-nav-icon.svg" alt="Icon Profile" class="w-5" />
-        <p class="text-sm">Ravad Nadam</p>
+        <p class="text-sm hidden md:block">Ravad Nadam</p>
       </div>
     </div>
 
@@ -26,7 +32,7 @@
       <img
         v-if="open"
         src="/icons/close-icon.svg"
-        alt="Logo"
+        alt="Close Icon"
         class="absolute z-50 top-6 size-5 cursor-pointer right-4"
         @click="menuOpen"
       />

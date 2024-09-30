@@ -1,6 +1,6 @@
 <template>
-  <div class="w-[100%] bg-gray-200 h-screen p-4 space-y-4 flex justify-center">
-    <ul>
+  <div class="w-64 bg-gray-200 h-screen p-8">
+    <ul class="space-y-4">
       <li
         v-for="item in menuItems"
         :key="item.name"
@@ -11,7 +11,6 @@
             : 'bg-transparent text-black',
           'flex items-center p-2 cursor-pointer rounded-md',
         ]"
-        style="border-radius: 12px"
       >
         <nuxt-link :to="item.route" class="flex items-center w-full">
           <img

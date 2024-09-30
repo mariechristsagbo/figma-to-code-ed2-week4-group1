@@ -33,7 +33,7 @@ import { ref } from "vue";
 const navItems = ref([
   { text: "Home", to: "/" },
   { text: "Services", to: "#services" },
-  { text: "Find a Doctor", to: "#find-a-doctor" },
+  { text: "Find a Doctor", to: "/dashboard" },
   { text: "About Us", to: "/#about-us" },
 ]);
 </script>
