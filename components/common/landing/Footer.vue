@@ -27,7 +27,7 @@
         appointments, telehealth services, and managing patient records.
       </p>
       <div>
-        <ul class="flex gap-4">
+        <ul class="flex flex-wrap gap-4">
           <li
             class="bg-blue cursor-pointer flex justify-center w-fit rounded-full p-2"
           >

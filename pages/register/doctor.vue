@@ -4,21 +4,21 @@ const formFields = [
     type: "text",
     name: "username",
     id: "floating_name",
-    label: "Nom complet",
+    label: "Full Name",
     for: "floating_name",
   },
   {
     type: "email",
     name: "email",
     id: "floating_email",
-    label: "Adresse email",
+    label: "Email Address",
     for: "floating_email",
   },
   {
     type: "password",
     name: "password",
     id: "floating_password",
-    label: "Mot de passe",
+    label: "Password",
     for: "floating_password",
   },
 ];
@@ -29,7 +29,7 @@ definePageMeta({
 
 <template>
   <div
-    class="w-full h-full px-4 py-4 md:px-12 md:py-12 bg-[url('~/assets/images/bg.png')] bg-no-repeat bg-cover bg-center"
+    class="w-screen h-screen px-4 py-4 md:px-12 md:py-12 bg-[url('~/assets/images/bg.png')] bg-no-repeat bg-cover bg-center"
   >
     <div>
       <buttonComponent
@@ -48,20 +48,21 @@ definePageMeta({
       <div
         class="bg-gray-pale mt-4 rounded-[19px] w-full lg:w-[400px] px-9 py-9"
       >
-        <p class="text-2xl text-center text-dark mb-6">Créer un compte</p>
+        <p class="text-2xl text-center text-dark mb-6">Create an account</p>
         <formComponent
           :fields="formFields"
-          :buttonName="'Inscription'"
+          :buttonName="'Sign up'"
           :is-login-form="false"
           :addtextarea="false"
+          route="doc-dashboard"
         />
-        <p class="text-center mt-6">Ou</p>
+        <p class="text-center mt-6">Or</p>
         <div class="space-y-2 mt-6">
           <buttonComponent
             :iconStart="'icons8-google.svg'"
             :iconWidth="'25px'"
             :iconHeight="'25px'"
-            :name="'S\'inscrire avec Google'"
+            :name="'Sign up with Google'"
             :classes="['bg-white w-full space-x-2 py-2 px-4 justify-center']"
             :classNameButton="[
               'text-base text-gray-darkest text-center font-[Roboto]',
@@ -71,7 +72,7 @@ definePageMeta({
             :iconStart="'icons8-facebook.svg'"
             :iconWidth="'25px'"
             :iconHeight="'25px'"
-            :name="'S\'inscrire avec Facebook'"
+            :name="'Sign up with Facebook'"
             :classes="['bg-white w-full space-x-2 py-2 px-4 justify-center']"
             :classNameButton="[
               'text-base text-gray-darkest text-center font-[Roboto]',
@@ -81,7 +82,7 @@ definePageMeta({
             :iconStart="'apple.svg'"
             :iconWidth="'25px'"
             :iconHeight="'25px'"
-            :name="'S\'inscrire avec Apple'"
+            :name="'Sign up with Apple'"
             :classes="['bg-white w-full space-x-2 py-2 px-4 justify-center']"
             :classNameButton="[
               'text-base text-gray-darkest text-center font-[Roboto]',
@@ -89,9 +90,9 @@ definePageMeta({
           />
         </div>
         <p class="text-center text-xs lg:text-sm text-gray-darkest mt-6">
-          Avez-vous déjà un compte ?
+          Already have an account?
           <span class="text-dark text-sm lg:text-base underline"
-            ><NuxtLink to="/login/doctor">Connectez-vous</NuxtLink></span
+            ><NuxtLink to="/login/doctor">Sign in</NuxtLink></span
           >
         </p>
       </div>

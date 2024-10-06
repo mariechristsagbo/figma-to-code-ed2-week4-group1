@@ -34,10 +34,10 @@
       </div>
       <div>
         <Link
-          to="/register/patient"
+          to="/home"
           class="text-white font-medium bg-blue rounded-full text-lg py-4 px-16 transition-opacity duration-500 hover:opacity-80"
         >
-          Register</Link
+          Login</Link
         >
       </div>
     </div>
